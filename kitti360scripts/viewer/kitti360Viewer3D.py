@@ -31,7 +31,7 @@ import struct
 import argparse
 try:
     import matplotlib.colors
-    from PIL import PILLOW_VERSION
+    from PIL import __version__
     from PIL import Image
 except:
     pass
